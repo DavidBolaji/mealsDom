@@ -1,0 +1,39 @@
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e4e4e4;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 8em;
+}
+
+.group p {
+    font-weight: bold;
+    color: red;
+}
+
+.number {
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    padding: 0.5em;
+}
+
+.btn-group {
+    padding: 1em;
+}
+
+.btn-group button {
+    background-color: rgba(230, 230, 230, 0.021);
+    padding:0.5em 2em;
+    margin-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    cursor: pointer;
+}
+
+.btn-group button:hover {
+    background-color: sienna;
+}
